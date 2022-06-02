@@ -1,0 +1,1 @@
+it helps to style componts like header footer section etc

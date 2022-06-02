@@ -1,0 +1,17 @@
+// this file for low level basics like resets,html styles and body element styles this file should be partials
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
