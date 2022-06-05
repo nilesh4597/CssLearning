@@ -12,7 +12,7 @@
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem;
     display: inline-block;
     transition: all 0.2s;
     position: relative;
@@ -31,6 +31,15 @@
   &:active {
     transform: translateY(-0.1rem);
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+
+  &--green {
+    background-color: $primary-color;
+    color: $color-white;
+    border-radius: 10rem;
+    &::after {
+      background-color: $primary-color;
+    }
   }
 
   &::after {
